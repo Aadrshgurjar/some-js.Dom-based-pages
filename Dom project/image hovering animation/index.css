@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+  font-family: 'GILROY';
+  color:#ffff
+}
+ body{
+  height: 100%;
+  width: 100%;
+  background: #000;
+
+}
+.main{
+  height: 100%;
+  width: 100%;
+  border-color: #000;
+  position:absolute;
+  
+
+}
+.elem{
+  height: 120px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  
+  align-items: center;
+  justify-content: start;
+  position: relative;
+}
+.elem h1{
+  font-size: 6vw;
+  position: relative;
+  z-index: 9;
+  mix-blend-mode: difference;
+}
+.elem img{
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+ position: absolute;
+  border-radius: 50%;
+    transition: all linear 0.2s;
+    overflow: auto;
+  
+  opacity: 0;
+}
